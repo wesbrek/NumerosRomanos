@@ -19,5 +19,17 @@ public class TestNumRomanos {
 		
 	}
 	
+
+
+	@Test
+	public void testDecenas() {
+		int number1 = 73;
+		
+		String result = NumRomanos.process(number1);
+		
+		assertEquals("LXXIII", result, "This should be LXXIII");
+		
+	}
+	
 	
 }
