@@ -42,5 +42,15 @@ public class TestNumRomanos {
 		
 	}
 	
+	@Test
+	public void testUnidadesM() {
+		int number1 = 5000;
+		
+		String result = NumRomanos.process(number1);
+		
+		assertEquals("v", result, "This should be v");
+		
+	}
+	
 }
 
