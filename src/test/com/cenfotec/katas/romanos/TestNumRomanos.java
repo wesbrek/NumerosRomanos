@@ -32,4 +32,15 @@ public class TestNumRomanos {
 	}
 	
 	
+	@Test
+	public void testCentenas() {
+		int number1 = 461;
+		
+		String result = NumRomanos.process(number1);
+		
+		assertEquals("CDLXI", result, "This should be CDLXI");
+		
+	}
+	
 }
+
